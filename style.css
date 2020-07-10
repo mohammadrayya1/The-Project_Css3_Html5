@@ -62,7 +62,7 @@ nav .List li
 }
 article
 {
-    height: 100px;
+    height: 150px;
     margin: 15px;
     
 }
@@ -107,6 +107,11 @@ article header h3, article header p
     padding: 5px;
     
 }
+ .arti-main aside div p
+ {
+     padding-left: 12px; 
+     
+ }
 .arti-main aside ul li
 {
     margin-bottom: 2px;
