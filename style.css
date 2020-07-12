@@ -15,6 +15,12 @@ body
     margin-top: 10px;
     
 }
+main mark
+{
+    background-color: #00f;
+    color: #fff;
+    
+}
 .main
 {
     margin-top: 0;
@@ -62,11 +68,38 @@ nav .List li
 }
 article
 {
-    height: 150px;
-    margin: 15px;
+    min-height: 170px;
+    margin: 30px;
     
 }
-
+article section  div details
+{
+    margin: 10px 0 10px 5px;
+    
+}
+article section  div
+{
+    margin-left: 10px;
+    padding-bottom: 20px;
+    
+}
+article section dialog
+{
+    background-color: #00f;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+   display: inline-block;
+   margin: 0;
+   
+}
+article section 
+{
+   
+    background-color: #eeeeee;
+    
+}
 article header
 {
     height: 45px;
@@ -89,22 +122,47 @@ article header h3, article header p
     
 }
 
+.arti-main .arti article form input
+{
+    display: block;
+    margin-bottom: 10px;
+    
+}
 .arti
 {
     width: 65%;
     float: left;
 }
 .arti-main
-{
-    
+{    padding-bottom: 50px;
     overflow: hidden;
 }
+
 
 .arti-main aside h3
 {
     background-color: #cccccc;
     margin: 10px;
     padding: 5px;
+    
+}
+
+   
+    
+   
+.arti-main aside section form datalist option
+{
+    
+    background-color: #00f;
+}
+.arti-main aside section
+{
+    margin-bottom: 20px;
+    
+}
+.arti-main aside form
+{
+    margin-left: 10px;
     
 }
  .arti-main aside div p
@@ -127,7 +185,7 @@ article header h3, article header p
 .arti-main aside
 {
     
-    margin-top: 15px;
+    margin-top: 29px;
  
     border: 1px solid #666666;
     float: left;

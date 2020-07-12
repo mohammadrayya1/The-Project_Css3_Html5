@@ -36,7 +36,7 @@
         <main>
             
             
-            Welcom To our<span> Html5 Course</span> From Elzero web School
+            Welcom To our<span><mark>Html5 Course</mark></span> From Elzero web School
             
         </main>
 
@@ -48,7 +48,7 @@
         <article>
             <header>
               <h3>  Artical #1</h3>
-              <p> created By Mohammad on 25.05.2020 
+              <p> created By Mohammad on<time datetime="2020-05-20"> 25.05.2021</time>
          
             </header>
             <section>
@@ -62,6 +62,11 @@
                     
                 </div>
                 
+                <dialog open>
+                    
+                    this is dialog
+                    
+                </dialog>
                 
                </section>
          
@@ -86,9 +91,18 @@
           
           
           <div class="pro">
-                    Design :<progress value="10" max="20"></progress><br>
-                    Coding :<progress value="7" max="20"></progress>
-                    
+              <details>
+                  
+                  <summary> Reference</summary>
+                  
+                  <ul>
+                      <li>Ref1</li>
+                      <li>Ref2</li>
+                      <li>Ref3</li>
+                      
+                  </ul>
+                  
+              </details>
                     
                 </div>
           </section>  
@@ -111,6 +125,34 @@
                     
                     
                 </div>
+            
+            </section>
+            
+            
+        </article>
+          <article>
+            <header>
+              <h3> <wbr> Artical About using Form input</h3>
+              <p> created By Mohammad on 25.05.2020 
+         
+            </header>
+            <section>
+                <p class="p1">New input</p>
+                <form>
+                    
+                    <input type="color" value="#0000FF">
+                    <input type="range"  max="100" min="10" value="10" step="10">
+                    <input type="number"  max="100" min="10" value="10" step="10">
+                    <input type="email"> 
+                    <input type="search" name="search">
+                    <input type="time">
+                    <input type="datetime-local">
+                    <input type="submit" value="Send">
+                    <input type="datetime">
+                </form>
+                
+            
+            
             
             </section>
             
@@ -154,10 +196,87 @@
                   
                   
               </section>
+              
           
           </aside>
           
+          <aside>
+              
+                        
+            <section>
+              <header>
+                  <h3> Top Member</h3>
+              </header>
+              
+                <div>
+                    
+                    <ul>
+                        <li>Osama :90 point</li>
+                        <li> Mohammad:80 point</li>
+                        <li> Sayed: 50 point</li>
+                        <li><bdi> علي</bdi>: 50 point</li>
+                        
+                        
+                    </ul>
+                </div>
+                  
+                  
+              </section>
+              
+              
+          </aside>
           
+                 <aside>
+              
+                        
+            <section>
+              <header>
+                  <h3> Whats your best Browsers</h3>
+              </header>
+              
+                <form>
+                    <input list="browsers">
+                    <datalist id="browsers">
+                        <option value="Chrome">
+                        <option value="firefox" style="background-color: red">
+                                  <option value="opera">
+                                       <option value="explorer">
+                                            <option value="fier">
+                                                 <option value="sososos">
+                                                     
+                        
+                    </datalist>
+                    <input type="submit" value="choose">
+                    
+                </form>         
+                <audio controls loop muted autoplay preload="auto">
+                    <source src='Lemon Dog MS pt 2.mp3' type="audio/mpeg">
+                    Your Browser is not support 
+                    
+                </audio>
+              </section>
+              
+              
+          </aside>
+           <aside>
+              
+                        
+               <section>      
+                   <header>
+                   <h3> Calculat Your Age</h3>
+                   </header>
+                   
+                   <form oninput="Result.value= parseInt(Age.value)*365 +' Days'" >
+                       
+                       <input type="text" name="Age">
+                       <input type="hidden" value="365" name="day">
+                       <output name="Result"> </output>
+                       
+                   </form>
+              </section>
+              
+              
+          </aside>
       </div>
         <footer>
             
@@ -165,5 +284,7 @@
             
             
         </footer>
+      
+    
   </body>
 </html>
